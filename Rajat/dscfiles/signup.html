@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js" ></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="bootstrapcs.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+       
+        <?php 
+      
+       include 'include/header.php';
+       if (isset($_SESSION['email'])){ 
+                       header('location: products.php');
+           } 
+ 
+       ?>
+    <div class="row container">
+        <div class="col-lg-5">
+            
+        </div>
+        <div class="col-lg-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Sign Up</h1>
+            </div>
+            <div class="panel-body">
+                <form action="signup_script.php" method="POST" >
+                    <div  >
+                        <input type="text" placeholder="Name" name="name" class="form-control"><br>
+                        <input type="email" placeholder="E-mail" name="email" class="form-control"><br>
+                    
+                        <input type="password" placeholder="Password" name="password" class="form-control">
+                    <br>
+                    <input type="number" placeholder="Contact" name="contact" class="form-control">
+                    <br>
+                    <input type="text" placeholder="City" name="city" class="form-control">
+                    <br>
+                    <input type="text" placeholder="Address" name="address" class="form-control">
+                    <br>
+                    <button class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    <?php 
+       include 'include/footer.php';
+       
+       
+       
+       ?>
+    </body>
+</html>
