@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Developer Student Club</title>
+		<link href="dsclogo.png" rel="icon"/>
+		<link href="header.css" rel="stylesheet" type="text/css"/>
+		<script>
+			function show()
+			{
+			
+				
+				var dsc1=document.getElementById("dsc1");
+				var dsc2=document.getElementById("dsc2");
+				dsc1.style.display="block";
+				dsc2.style.display="block";
+				//dsc.style.transform="rotateY(-180deg)";
+			}
+			function hide()
+			{
+				var dsc1=document.getElementById("dsc1");
+				var dsc2=document.getElementById("dsc2");
+				dsc1.style.display="none";
+				dsc2.style.display="none";
+			}
+			function show1()
+			{
+			
+				
+				var rec1=document.getElementById("rec1");
+				var rec2=document.getElementById("rec2");
+				rec1.style.display="block";
+				rec2.style.display="block";
+				//dsc.style.transform="rotateY(-180deg)";
+			}
+			function hide1()
+			{
+				var rec1=document.getElementById("rec1");
+				var rec2=document.getElementById("rec2");
+				rec1.style.display="none";
+				rec2.style.display="none";
+			}
+		</script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="menu">
+				<div class="menu1">
+					<div class="circle">
+						<img src="dsc.png" height="100%" width="100%" onmouseover="show()" onmouseout="hide()">
+					</div>
+				</div>
+				<div id="menu2">
+					<div id="dsc">
+						<span id="dsc1" style="font-size:50px;font-weight:bold;margin-left:150px;color:white;">Developer Student Club</span>
+						<span id="dsc2" style="font-size:20px;font-weight:bold;margin-left:380px;color:white;">(Come Together Learn Together)</span>
+					</div>
+					<hr style="border-width:2px;"/>
+					<div id="recb">
+						<span id="rec1" style="font-size:40px;font-weight:bold;margin-left:100px;color:white;">Rajkiya Engineering College Bijnor</span>
+						<span id="rec2" style="font-size:20px;font-weight:bold;margin-left:400px;color:white;">(Abdul Kalam Technical University)</span>
+					</div>
+				</div>
+				<div class="menu1">
+					<div class="circle">
+						<img src="rec.png" height="100%" width="100%" onmouseover="show1()" onmouseout="hide1()">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

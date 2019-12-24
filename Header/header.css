@@ -1,0 +1,52 @@
+body
+{
+	//background-color:cyan;
+}
+#main
+{
+	height:300px;
+	width:100%;
+	//background-color:white;
+}
+#menu
+{
+	height:200px;
+	width:100%;
+	background-color:black;
+	border-radius:15px;
+}
+.menu1
+{
+	height:100%;
+	width:20%;
+	//background-color:red;
+	float:left;
+}
+.circle
+{	
+	height:200px;
+	width:200px;
+	background-color:white;
+	border-radius:50%;
+	margin-left:33px;
+	cursor:pointer;
+}
+#menu2
+{
+	height:100%;
+	width:60%;
+	//background-color:green;
+	float:left;
+}
+#dsc
+{
+	height:50%;
+	width:100%;
+	//background-color:yellow;
+}
+#recb
+{
+	height:50%;
+	width:100%;
+	//background-color:blue;
+}
