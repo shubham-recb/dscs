@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Signup here</title>
+		<link href="dsclogo.png" rel="icon"/>
+        <link href="signup.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form action="" method="post">
+        <div id="outer">
+            <div id="container">
+                <h1 style="color:black; text-align: center;">Signup Here</h1>
+                    <table style="margin:0 auto; width:50%;">
+                        <tr>
+                            <td><input type="text" name="name" required="" placeholder="Enter Your Name"/></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Select Gender
+                                <input type="radio" name="gender" value="Male"/>Male
+                                <input type="radio" name="gender" value="Female">Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" name="emailaddress" required="" placeholder="Enter Your Email"/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" name="mobno" required="" placeholder="Enter Mobile No."/></td>
+                        </tr>
+						<tr>
+							<td>Date of Birth  <input type="date" name="dob" required="" placeholder="Enter Date of Birth"/></td>
+						</tr>
+                        <tr>
+                            <td>
+                                Select City
+                                <select name="city">
+                                    <option>Select</option>
+                                    <option>Lucknow</option>
+                                    <option>Delhi</option>
+                                    <option>Jaipur</option>
+                                    <option>Noida</option>
+                                    <option>Kolkata</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="address" placeholder="Enter Your Address"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" name="pincode" required="" placeholder="Enter Pincode"/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="password" required="" placeholder="Enter Password"/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="confirmpassword" required="" placeholder="Confirm Password"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Signup"/></td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
